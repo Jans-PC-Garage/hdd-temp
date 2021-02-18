@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ df  ; 
+
+echo 
+hddtemp /dev/sdb2 && hddtemp /dev/sda1 && hddtemp /dev/sde1 && hddtemp /dev/sdc1 
+
+
